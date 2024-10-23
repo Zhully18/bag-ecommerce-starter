@@ -1,0 +1,46 @@
+.hero{
+    height: 90vh;
+    background: #afe1af;
+}
+.hero_content{
+    display: flex;
+    padding-inline: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.hero_left{
+    max-width: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero .hero_left h1{
+    font-size: 5.5rem;
+    margin-top: 10px;
+}
+.hero .hero_left .text{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+}
+.hero_left .price{
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+}
+.hero_left button{
+    width: 40%;
+    padding: 1rem 4rem;
+    background: #043927;
+    color: #fff;
+    border: none;
+}
+.hero_right{
+    max-width: 50%;
+}
+.hero .hero_right img{
+    width: 640px;
+    height: 550px;
+    object-fit: contain;
+}
